@@ -57,7 +57,10 @@ st.markdown("""
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('main_data.csv')
+    import os
+    BASE_DIR = os.path.dirname(Proyek-Analisis-Data-E-Commerce/dashboard/dashboard.py)
+    csv_path = os.path.join(BASE_DIR, 'main_data.csv')
+    df = pd.read_csv(csv_path)
     df['order_purchase_timestamp'] = pd.to_datetime(df['order_purchase_timestamp'], errors='coerce')
     df['order_year'] = df['order_purchase_timestamp'].dt.year
     df['order_month_num'] = df['order_purchase_timestamp'].dt.month
