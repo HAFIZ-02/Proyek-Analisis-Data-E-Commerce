@@ -9,3 +9,12 @@ seaborn==0.13.2
 pandas==2.2.2
 numpy==1.26.4
 scipy==1.13.1
+
+# ============================================================
+# requirements.txt
+# Proyek Analisis Data E-Commerce — Hafiz Hafrienda
+# Mencakup: Notebook (EDA + Wrangling), Assessing Data, Dashboard
+# Python >= 3.9 direkomendasikan (dikembangkan pada Python 3.12)
+# ============================================================
+
+
