@@ -43,8 +43,10 @@ Masuk ke folder `dashboard`, lalu jalankan aplikasi:
 ```bash
 cd dashboard
 streamlit run dashboard.py
-```
 
+dapat dilakukan juga
+https://dashboardpy-hasil.streamlit.app/ (hasil saat ini)
+```
 
 ## 📁 Deskripsi Dataset
 
